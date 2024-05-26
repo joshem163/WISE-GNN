@@ -1,13 +1,12 @@
 # WISE-GNN
-
-[FrameWork.pdf](https://github.com/joshem163/WISE-GNN/files/15445850/FrameWork.pdf)
+![FrameWork-1](https://github.com/joshem163/WISE-GNN/assets/133717791/89269231-6105-4529-bdb1-9cbc59695eb3)
 
 
 # Overview
 
-Wise-GNN is an innovative machine learning model for Graph representation learning that utilizes a contrastive approach, effectively integrating local neighborhood information and domain features of the nodes. This repository contains the code for the ClassContrast paper.
+Wise-GNN is an innovative machine learning model for Graph representation learning that utilizes a  novel approach named "Wise Embeddings", effectively integrating local topological information and positional information in the doamin feature spaces,to improve the performance of existing GNN models. This repository contains the code for the Wise-GNN paper. 
 # Requirements
-ClassContrast depends on the followings:
+Wise-GNN depends on the followings:
 1. Pytorch
 2. Pyflagser
 3. networkx 3.1
@@ -24,8 +23,6 @@ In this study,  ten benchmark datasets have been utilized, comprising three homo
 
 [CITESEER](https://linqs-data.soe.ucsc.edu/public/datasets/citeseer-doc-classification/citeseer-doc-classification.zip)
 
-[OGBN](https://ogb.stanford.edu/docs/nodeprop/)
-
 [PUBMED](https://linqs-data.soe.ucsc.edu/public/datasets/pubmed-diabetes/pubmed-diabetes.zip)
 
 [WebKB](https://github.com/bingzhewei/geom-gcn/tree/master/new_data)
@@ -36,7 +33,6 @@ In this study,  ten benchmark datasets have been utilized, comprising three homo
 1. Execute all cell of notebook to run the experiment:
 2. The code has the ability to download and preprocess the dataset by itself. The dataset will be stored in the same directory.
 3. Make sure to maintain the sequential order of execution as specified in the code.
-4. Follow the prompts or instructions provided by the code to proceed with the experiment.
-5. For OGBN datasets, the final feature vectors will be saved as CSV files in the same directory for future use in classification tasks. 
+4. Follow the prompts or instructions provided by the code to proceed with the experiment. 
 
 
