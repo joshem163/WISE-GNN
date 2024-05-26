@@ -17,7 +17,7 @@ Wise-GNN depends on the followings:
    
 The code is implemented in python 3.11.4. 
 # Datasets
-In this study,  ten benchmark datasets have been utilized, comprising three homophilic, two OGBN, and five heterophilic datasets. The link to access these datasets is provided below:
+In this study,  7 benchmark datasets have been utilized, comprising three homophilic, and four heterophilic datasets. The link to access these datasets is provided below:
 
 [CORA](https://linqs-data.soe.ucsc.edu/public/datasets/cora/cora.zip) 
 
